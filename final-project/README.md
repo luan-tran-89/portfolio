@@ -1,10 +1,10 @@
 # My Website in the AWS cloud
 
-## Course: Big Data Technology (CS516)
-## Professor - Unubold Tumenbayar
+### Course: Big Data Technology (CS516)
+### Professor - Unubold Tumenbayar
 
-## Overview
-## Technology stacks:
+### Overview
+### Technology stacks:
 
 *   S3
 * 	Lambda
@@ -15,12 +15,12 @@
 * 	Dynamodb
 * 	ReactJS
 
-## Workflow
+### Workflow
 
-## Project Guideline
+### Project Guideline
 Please refer the README.pdf
 
-## Website
+### Website
 
 https://www.simplelife.studio/
 
