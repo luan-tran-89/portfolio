@@ -1,12 +1,38 @@
-# Getting Started with Create React App
+# My Website in the AWS cloud
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Course: Big Data Technology (CS516)
+## Professor - Unubold Tumenbayar
+
+## Overview
+## Technology stacks:
+
+*   S3
+* 	Lambda
+* 	SNS
+*   API Gateway
+* 	Route53
+* 	Cognito
+* 	Dynamodb
+* 	ReactJS
+
+## Workflow
+
+## Project Guideline
+Please refer the README.pdf
+
+## Website
+
+https://www.simplelife.studio/
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn`
+
+### `yarn build`
+
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +40,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Lambda](https://aws.amazon.com/lambda/getting-started/?trk=dca4b539-ba5f-4c78-bd55-e8e5f7a26221&sc_icampaign=lambda_ict_gs_functions&sc_icontent=awssm-11768_engage&sc_iplace=aws-console-lambda)
 
-### Code Splitting
+[SNS](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html)
 
-### Analyzing the Bundle Size
+[AWS Cognito](https://docs.amazonaws.cn/en_us/cognito/latest/developerguide/what-is-amazon-cognito.html)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Route53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)
 
-### Making a Progressive Web App
+[DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Integration between ReactJS app and AWS Cognito](https://www.npmjs.com/package/amazon-cognito-identity-js)
