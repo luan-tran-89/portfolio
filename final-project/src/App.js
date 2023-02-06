@@ -1,142 +1,66 @@
-import React, { Component } from "react";
-import $ from "jquery";
-import "./App.scss";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import React, { useEffect } from "react";
 
-class App extends Component {
+import { Account } from './components/Account';
+import Navbar from './components/NavBar';
+import Intro from './components/Intro';
+import About from './components/About';
+import Portfolio from './components/portfolio';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
+import BackToTop from './components/back-top';
+import Preloader from './components/preloader';
+import Timeline from './components/Timeline';
+import Utils from './common/Utils';
+import StaticData from './common/StaticData';
 
-  constructor(props) {
-    super();
-    this.state = {
-      foo: "bar",
-      resumeData: {},
-      sharedData: {},
-    };
-  }
+import "./styles/common.scss";
 
-  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
-    this.loadResumeFromPath(resumePath);
-  }
+const App = (props) => {
 
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
-  }
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const params = hash.split("&");
+      const tokens = params.filter(s => s.includes("id_token"));
+      if (tokens && tokens.length > 0) {
+        const idToken = tokens[0].split("=")[1];
 
-  componentDidMount() {
-    this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
-  }
+        if (idToken) {
+          const expires = params.filter(s => s.includes("expires_in"));
+          const options = {
+            path: "/",
+            domain: Utils.getSubDomain(),
+            expires: expires ? expires[0] : 3600
+          }
+          Utils.saveCookie('idToken', idToken, options);
+          window.location.href = "/";
+        }
+      }
+    }
+  }, []);
 
-  loadResumeFromPath(path) {
-    $.ajax({
-      url: path,
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
-  }
-
-  loadSharedData() {
-    $.ajax({
-      url: `portfolio_shared_data.json`,
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ sharedData: data });
-        document.title = `${data.basic_info.name}`;
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
-  }
-
-  render() {
-    return (
-      <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
-              data-inline="false"
-              id={window.$primaryLanguageIconId}
-            ></span>
-          </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
-              data-inline="false"
-              id={window.$secondaryLanguageIconId}
-            ></span>
-          </div>
-        </div>
-        <About
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Skills
-          sharedSkills={this.state.sharedData.skills}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Experience
-          resumeExperience={this.state.resumeData.experience}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
-      </div>
-    );
-  }
+  return (
+    <Account>
+      <Navbar />
+      <Intro />
+      <About />
+      <Portfolio />
+      <Timeline
+        id="experience"
+        setions={StaticData.getExperience()}
+        sectionName="Experience"
+      />
+      <Timeline 
+        id="education"
+        setions={StaticData.getEducation()}
+        sectionName="Education"
+      />
+      <Blog />
+      <Contact />
+      <BackToTop />
+      <Preloader />
+    </Account>
+  );
 }
 
 export default App;

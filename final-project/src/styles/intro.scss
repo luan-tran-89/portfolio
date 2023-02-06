@@ -1,0 +1,16 @@
+.intro-content .button {
+  color: #FFFFFF;
+  border-color: rgba(255, 255, 255, 0.3);
+  height: 4rem;
+  line-height: 3.6rem;
+  padding: 0 3.5rem 0 3rem;
+  margin-top: 0.6rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+
+  &:hover {
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #cde1f8;
+  }
+}

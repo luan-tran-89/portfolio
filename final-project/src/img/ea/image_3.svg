@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="524px" preserveAspectRatio="none" style="width:1037px;height:524px;" version="1.1" viewBox="0 0 1037 524" width="1037px" zoomAndPan="magnify"><defs><filter height="300%" id="f5hxzkyptxe8x" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#F9F9F9" height="509.0469" style="stroke: #DDDDDD; stroke-width: 1.0;" width="163" x="273.5" y="4"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="276.5" y="16.9951">Client can be Issuer</text><line style="stroke: #777777; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="75" x2="75" y1="59.5938" y2="458.4531"/><line style="stroke: #777777; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="319.5" x2="319.5" y1="59.5938" y2="458.4531"/><line style="stroke: #777777; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="388.5" x2="388.5" y1="59.5938" y2="458.4531"/><line style="stroke: #777777; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="577.5" x2="577.5" y1="59.5938" y2="458.4531"/><line style="stroke: #777777; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="963.5" x2="963.5" y1="59.5938" y2="458.4531"/><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="46.5938" style="stroke: #A80036; stroke-width: 1.5;" width="130" x="8" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="116" x="15" y="27.9951">Resource Owner</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="36" y="44.292">User-Agent</text><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="46.5938" style="stroke: #A80036; stroke-width: 1.5;" width="130" x="8" y="457.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="116" x="15" y="477.4482">Resource Owner</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="36" y="493.7451">User-Agent</text><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="53" x="291.5" y="24.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="298.5" y="44.292">Client</text><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="53" x="291.5" y="457.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="298.5" y="477.4482">Client</text><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="358.5" y="24.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="365.5" y="44.292">Issuer</text><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="358.5" y="457.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="365.5" y="477.4482">Issuer</text><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="153" x="499.5" y="24.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="506.5" y="44.292">Authorization Server</text><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="153" x="499.5" y="457.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="506.5" y="477.4482">Authorization Server</text><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="897.5" y="24.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="904.5" y="44.292">Resource Server</text><rect fill="#FEFECE" filter="url(#f5hxzkyptxe8x)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="897.5" y="457.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="904.5" y="477.4482">Resource Server</text><polygon fill="#A80036" points="86,87.8906,76,91.8906,86,95.8906,82,91.8906" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="80" x2="319" y1="91.8906" y2="91.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="92" y="86.5889">1)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="112" y="86.5889">Redirect....</text><polygon fill="#A80036" points="376.5,118.1875,386.5,122.1875,376.5,126.1875,380.5,122.1875" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="75" x2="382.5" y1="122.1875" y2="122.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="82" y="116.8857">2)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="102" y="116.8857">...for authentication.</text><polygon fill="#A80036" points="86,148.4844,76,152.4844,86,156.4844,82,152.4844" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="80" x2="387.5" y1="152.4844" y2="152.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="92" y="147.1826">3)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="220" x="112" y="147.1826">If credentials are valid, redirect...</text><polygon fill="#A80036" points="308,195.0781,318,199.0781,308,203.0781,312,199.0781" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="75" x2="314" y1="199.0781" y2="199.0781"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="82" y="185.6279">4)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="187" x="102" y="177.4795">...with signed bearer JWT to</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="102" y="193.7764">Client</text><polygon fill="#A80036" points="566,241.6719,576,245.6719,566,249.6719,570,245.6719" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="320" x2="572" y1="245.6719" y2="245.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="327" y="232.2217">5)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="347" y="224.0732">Request access token</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="347" y="240.3701">with JWT</text><line style="stroke: #A80036; stroke-width: 2.0;" x1="578" x2="620" y1="275.9688" y2="275.9688"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="620" x2="620" y1="275.9688" y2="288.9688"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="579" x2="620" y1="288.9688" y2="288.9688"/><polygon fill="#A80036" points="589,284.9688,579,288.9688,589,292.9688,585,288.9688" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="585" y="270.667">6)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="605" y="270.667">Validate JWT</text><polygon fill="#A80036" points="331,315.2656,321,319.2656,331,323.2656,327,319.2656" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="325" x2="577" y1="319.2656" y2="319.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="337" y="313.9639">7)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="357" y="313.9639">Response with access token</text><polygon fill="#A80036" points="952,345.5625,962,349.5625,952,353.5625,956,349.5625" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="320" x2="958" y1="349.5625" y2="349.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="327" y="344.2607">8)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="254" x="347" y="344.2607">Request resource with access token</text><polygon fill="#A80036" points="589,375.8594,579,379.8594,589,383.8594,585,379.8594" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="583" x2="963" y1="379.8594" y2="379.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="595" y="374.5576">9)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="282" x="615" y="374.5576">Request token validation and information</text><polygon fill="#A80036" points="952,406.1563,962,410.1563,952,414.1563,956,410.1563" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="578" x2="958" y1="410.1563" y2="410.1563"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="26" x="585" y="404.8545">10)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="332" x="615" y="404.8545">If access token is valid, respond with information</text><polygon fill="#A80036" points="331,436.4531,321,440.4531,331,444.4531,327,440.4531" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="325" x2="963" y1="440.4531" y2="440.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="26" x="337" y="435.1514">11)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="341" x="367" y="435.1514">If access token is valid, return protected resource</text><!--MD5=[a0fd65544c8e1341bd9af8dc95cdfa4d]
+@startuml oauth2-jwt-bearer-authz.svg
+
+autonumber "<b>##)"
+
+skinparam BackgroundColor transparent
+
+skinparam DefaultFontSize 14
+
+skinparam NoteBorderColor bce8f1
+skinparam NoteBackgroundColor d9edf7
+
+skinparam Shadowing true
+
+skinparam Sequence {
+  ArrowThickness 2
+
+  BoxBorderColor dddddd
+  BoxBackgroundColor f9f9f9
+
+  DividerBackgroundColor 2b6ea6
+  DividerFontColor white
+
+  GroupBodyBackgroundColor transparent
+
+  LifeLineBorderColor 777777
+}
+participant "Resource Owner\n User-Agent" as Owner
+box "Client can be Issuer"
+    participant "Client" as Client
+    participant "Issuer" as Issuer
+end box
+participant "Authorization Server" as AuthzServer
+participant "Resource Server" as ResourceServer
+
+
+Client->Owner: Redirect....
+
+Owner->Issuer: ...for authentication.
+
+Issuer->Owner: If credentials are valid, redirect...
+
+Owner->Client: ...with signed bearer JWT to\nClient
+
+Client->AuthzServer: Request access token\nwith JWT
+
+AuthzServer->AuthzServer: Validate JWT
+
+AuthzServer->Client: Response with access token
+
+Client->ResourceServer: Request resource with access token
+
+ResourceServer->AuthzServer: Request token validation and information
+
+AuthzServer->ResourceServer: If access token is valid, respond with information
+
+ResourceServer->Client: If access token is valid, return protected resource
+
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 12:38:32 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.4+11
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

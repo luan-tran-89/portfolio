@@ -1,0 +1,46 @@
+.time-line {
+  .section-title {
+    color: #1e1e1e;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+
+    &::before {
+      content: '';
+      position: absolute;
+      height: 3px;
+      background-color: #0078ff;
+      width: 100px;
+      bottom: -12px;
+    }
+  }
+
+  .vertical-timeline {
+    padding-top: 0;
+  }
+
+  .vertical-timeline-element-icon.bounce-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .experience-icon {
+    font-size: 24px;
+  }
+
+
+  .badge.main-badge {
+    // background-color: rgb(174, 148, 79)!important;
+    background-color: rgb(11, 120, 255)!important;
+    font-size: 14px;
+  }
+
+  .badge {
+    // background-color: #f9f5e9!important;
+    background-color: rgba(11, 120, 255, .6) !important;
+    color: white;
+    font-size: 12px;
+    padding: 7px;
+  }
+}

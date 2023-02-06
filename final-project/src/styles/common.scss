@@ -1,0 +1,61 @@
+
+#block {
+  text-align: center;
+  .workflow {
+    width: 100%;
+  }
+}
+
+.message-table {
+
+  .modal-dialog {
+    max-width: 70vw;
+  }
+
+  .empty-rows {
+    text-align: center;
+  }
+
+  a {
+    color: #007bff;
+  }
+}
+
+.login-form {
+  .group-btn, .sign-up {
+    text-align: center;
+  }
+
+  a,
+  a:not([href]):not([class]) {
+    color: #0078ff;
+    cursor: pointer;
+  }
+
+  a:hover,
+  a:not([href]):not([class]):hover {
+    text-decoration: underline;
+  }
+
+  .error-message {
+    color: red;
+    min-height: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .form-group.disabled {
+    opacity: 0;
+  }
+}
+
+#contact {
+  .error-message {
+    color: red;
+    min-height: 30px;
+  }
+}
+
+.loading-icon {
+  color: #0078ff;
+}

@@ -1,25 +1,30 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.scss';
+import ReactDOM from 'react-dom';
+
+//import css in order
+import 'normalize.css';
+import './css/animate.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import './img/icons/css/ionicons.css';
+import './img/font-awesome/css/font-awesome.css';
+import 'lightbox2/dist/css/lightbox.min.css'
+import './css/style.css';
+
+//import js libraries
+import 'jquery/dist/jquery.min.js';
+import 'popper.js/dist/popper.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import './libs/easing.js';
+import 'lightbox2/dist/js/lightbox.min.js';
+
+import * as serviceWorker from './serviceWorker';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-/* GLOBAL VARIABLES */
+ReactDOM.render(
+    <App />,
+document.getElementById('root'));
 
-window.$primaryLanguage = 'en';
-window.$secondaryLanguage = 'pl';
-window.$primaryLanguageIconId = 'primary-lang-icon';
-window.$secondaryLanguageIconId = 'secondary-lang-icon';
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

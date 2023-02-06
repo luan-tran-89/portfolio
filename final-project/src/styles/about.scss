@@ -1,0 +1,92 @@
+#about {
+  .about-me.row {
+    justify-content: center;
+  }
+
+  .about-me .title {
+    text-align: center;
+  }
+
+  .about-me .lead {
+    font-family: "lora-regular", serif;
+    font-size: 20px;
+    color: #888888;
+  }
+
+  // .box-shadow-full {
+  //   padding: 20px 10em;
+  // }
+
+  .profile {
+    padding-top: 30px;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+  }
+
+  .skills {
+    padding-top: 30px;
+    margin: auto;
+    width: 90%;
+  }
+
+  .title {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .section-title {
+    font-weight: bold;
+  }
+
+  .section-content {
+    margin: 5px;
+  }
+
+
+  .profile .info-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      padding: 0 0 1rem 0;
+      margin-bottom: 0.6rem;
+
+      strong {
+        font-family: "Poppins", sans-serif;
+        color: #313131;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+      }
+
+      span {
+        display: block;
+        font-family: "poppins-regular", sans-serif;
+        color: #888888;
+      }
+    }
+  }
+
+  .avata {
+    border: 1px solid rgba(136, 136, 136, .2);
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+  }
+
+  .button-holder {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  @media (max-width: 1200px) {
+    .box-shadow-full {
+      padding: 10px;
+    }
+  }
+}

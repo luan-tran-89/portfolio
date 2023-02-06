@@ -1,0 +1,53 @@
+#mainNav {
+  .logo {
+    font-size: 3em;
+
+    &::after {
+      content: "java developer";
+      font-size: 10px;
+    }
+  }
+
+  .user-info {
+    cursor: pointer;
+
+    .user-icon {
+      color: white;
+      margin-left: 20px;
+      font-size: 32px;
+    }
+  }
+
+  &.navbar-b.navbar-reduce .user-info .user-icon {
+    color: #0078ff;
+  }
+
+  .popup-menu-options {
+    color: #495057;
+    font-size: 16px;
+
+    .list-group-item {
+      cursor: pointer;
+    }
+    
+    .card {
+      margin-top: 35px;
+      width: 250px;
+    }
+  
+    #circle-avatar {
+      display: grid;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #ffbd30;
+      place-items: center;
+  
+      span {
+        font-size: 48px;
+        font-weight: bold;
+      }
+    }
+  }
+
+}
