@@ -20,6 +20,15 @@ class Blog extends React.Component {
                       </div>
                       <div className="row">
                         <div className="col-md-12 text-center">
+                          <a className="btn-shutter-out-horizontal " 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://drive.google.com/file/d/15c943G7wwYZyqaDY60j4ZbDeChku4x7A/view"
+                          >
+                            ReadMe
+                          </a>
+                        </div>
+                        <div className="col-md-12 text-center">
                           <img src={workflow} alt="" className="workflow" />
                         </div>
                       </div>

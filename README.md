@@ -56,4 +56,12 @@ You may also see any lint errors in the console.
 
 [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
 
+## Reference Supported Links:
+
 [Integration between ReactJS app and AWS Cognito](https://www.npmjs.com/package/amazon-cognito-identity-js)
+
+[GitHub WorkFlow](https://docs.github.com/en/actions/quickstart)
+
+[GitHub Action to Sync S3 Bucket](https://github.com/jakejarvis/s3-sync-action)
+
+[Automatic Cloudfront invalidation with Amazon Lambda](https://blog.miguelangelnieto.net/posts/Automatic_Cloudfront_invalidation_with_Amazon_Lambda.html)
