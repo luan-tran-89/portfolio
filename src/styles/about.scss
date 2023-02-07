@@ -45,9 +45,6 @@
 
 
   .profile .info-list {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
     list-style: none;
     margin-left: 0;
     padding-left: 0;
@@ -68,6 +65,12 @@
         font-family: "poppins-regular", sans-serif;
         color: #888888;
       }
+    }
+
+    @media (min-width: 768px) {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
     }
   }
 
