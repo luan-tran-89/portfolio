@@ -1,6 +1,4 @@
 import React from "react";
-import "../../styles/stars.scss";
-import "../../styles/intro.scss";
 import Typed from "react-typed";
 import Links from "../Links";
 

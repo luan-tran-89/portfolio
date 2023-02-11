@@ -1,3 +1,6 @@
+import {
+  tdt, maharishi 
+} from "./assets";
 
 const StaticData = {
   getExperience: function () {
@@ -52,15 +55,21 @@ const StaticData = {
         "title": "Maharish International University",
         "contain": "1000 N 4th St, Fairfield, IA 52557",
         "years": "Aug 2022 - present",
+        "logo": maharishi,
+        "link": "https://www.miu.edu/",
         "mainBadges": ["Master's in Computer Science"],
         "badges": [
-          "Modern Programming Practices", "Web Programming", "Big Data Technology", "Enterprise Architecture", "Cloud Computing"
+          "Modern Programming Practices", "Web Programming", 
+          "Big Data Technology", "Enterprise Architecture",
+          "Cloud Computing", "Big Data Analytics" 
         ]
       },
       {
         "title": "Ton Duc Thang University",
         "contain": "Ho Chi Minh City",
         "years": "Sep 2009 - Sep 2013",
+        "logo": tdt,
+        "link": "https://www.tdtu.edu.vn/en",
         "mainBadges": ["Bachelor's in Computer Science"],
         "badges": []
       }

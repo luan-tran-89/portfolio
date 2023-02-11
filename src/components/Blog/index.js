@@ -1,5 +1,4 @@
 import React from "react";
-import "../../styles/about.scss";
 
 import workflow from "../../img/workflow.svg";
 

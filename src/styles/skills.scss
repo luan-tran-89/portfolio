@@ -1,0 +1,27 @@
+#skills {
+  .title {
+    text-align: center;
+  }
+
+  .line {
+    border-color: rgba(0, 120, 255, .7);
+
+    .rounded-full {
+      background-color: rgba(0, 120, 255, .7);;
+    }
+  }
+
+  .skill-group {
+    text-align: center;
+
+    svg {
+      margin: auto;
+    }
+  }
+
+  .skill-group {
+    &:hover {
+      color: rgba(0, 120, 255, 1);
+    }
+  }
+}

@@ -6,8 +6,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
-import "../../styles/timeline.scss";
-
 class Timeline extends Component {
 
   generateSections() {
@@ -16,7 +14,7 @@ class Timeline extends Component {
     }
 
     return this.props.setions.map(function (section, i) {
-      const { badges, mainBadges, contain, title, type, years } = section;
+      const { badges, mainBadges, contain, title, type, years, logo, link } = section;
 
       const mainTechs = mainBadges.map((technology, i) => {
         return (
@@ -37,11 +35,23 @@ class Timeline extends Component {
           className="vertical-timeline-element--work"
           date={years}
           iconStyle={{
-            background: "#0B78FF",
+            // background: "#0B78FF",
+            // background: "rgba(11, 120, 255, .1)",
+            background: "#FFFFFF",
             color: "#fff",
             textAlign: "center",
           }}
-          icon={<i className={`fa ${type == 'work' ? 'fa-briefcase' : 'fa-building-columns'} experience-icon`}></i>}
+          icon={
+            // <i className={`fa ${type == 'work' ? 'fa-briefcase' : 'fa-building-columns'} experience-icon`}></i>
+            // this.renderIcon()
+            <a href={link} target="_blank" >
+              <img
+                src={logo}
+                alt={title}
+                className="w-[52px] h-[52px] rounded-full z-[2]"
+              />
+            </a>
+          }
           key={i}
         >
           <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -67,10 +77,10 @@ class Timeline extends Component {
   }
 
   render() {
-    const sectionName = this.props.sectionName;
+    const { id, sectionName } = this.props;
 
     return (
-      <section id={this.props.id} className="sect-pt4 pb-5 time-line">
+      <section id={id} className="sect-pt4 pb-5 time-line">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
@@ -95,7 +105,7 @@ class Timeline extends Component {
                 textAlign: "center",
               }}
               icon={
-                <i className={`fa ${this.props.id == "experience" ? "fa-paper-plane-o" : "fa-graduation-cap"} mx-auto experience-icon`}></i>
+                <i className={`fa ${id == "experience" ? "fa-paper-plane-o" : "fa-graduation-cap"} mx-auto experience-icon`}></i>
               }
             />
             {this.generateSections()}

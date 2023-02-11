@@ -1,6 +1,11 @@
 #mainNav {
+  .container {
+    max-width: 1280px;
+    margin: auto;
+  }
+  
   .logo {
-    font-size: 3em;
+    font-size: 3.5em;
 
     &::after {
       content: "java developer";
@@ -50,4 +55,7 @@
     }
   }
 
+  .navbar-collapse {
+    visibility: visible;
+  }
 }

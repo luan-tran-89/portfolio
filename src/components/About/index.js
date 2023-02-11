@@ -1,5 +1,4 @@
 import React from "react";
-import "../../styles/about.scss";
 
 import avata from "../../img/avata.jpg";
 
@@ -13,6 +12,66 @@ class About extends React.Component {
       skills1: StaticData.getSkills1(),
       about_me: StaticData.getAboutMe()
     };
+  }
+
+  renderSkills() {
+    <div className="row skills">
+      <div className="col-md-12">
+        <div className="title-box-2">
+          <h5 className="title title-left">SKILLS</h5>
+        </div>
+        <div className="row">
+          <div className="col-md-6">
+            <div className="skill-mf">
+              {this.state.skills.map(skill => {
+                return (
+                  <React.Fragment key={skill.id}>
+                    <span>{skill.content}</span>{" "}
+                    <span className="pull-right">
+                      {skill.porcentage}
+                    </span>
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: skill.porcentage }}
+                        aria-valuenow={skill.value}
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </React.Fragment>
+                );
+              })}
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="skill-mf">
+              {this.state.skills1.map(skill => {
+                return (
+                  <React.Fragment key={skill.id}>
+                    <span>{skill.content}</span>{" "}
+                    <span className="pull-right">
+                      {skill.porcentage}
+                    </span>
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: skill.porcentage }}
+                        aria-valuenow={skill.value}
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </React.Fragment>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   }
 
   render() {
@@ -30,7 +89,7 @@ class About extends React.Component {
                       </div>
                       <div className="row">
                         <div className="col-md-4 text-center">
-                        <img src={avata} alt="" className="avata" />
+                          <img src={avata} alt="" className="avata" />
                         </div>
                         <div className="col-md-8">
                           {this.state.about_me.map(content => {
@@ -66,79 +125,21 @@ class About extends React.Component {
                       </li>
                       <li>
                         <strong>Email:</strong>
-                        <span>ba.tran@miu.edu</span>
+                        <span>luan.tran.2589@gmail.com</span>
                       </li>
                     </ul>
-                  </div>
-                </div>
-                
-                <div className="row skills">
-                  <div className="col-md-12">
-                    <div className="title-box-2">
-                      <h5 className="title title-left">SKILLS</h5>
-                    </div>
-                    <div className="row">
-                      <div className="col-md-6">
-                        <div className="skill-mf">
-                          {this.state.skills.map(skill => {
-                            return (
-                              <React.Fragment key={skill.id}>
-                                <span>{skill.content}</span>{" "}
-                                <span className="pull-right">
-                                  {skill.porcentage}
-                                </span>
-                                <div className="progress">
-                                  <div
-                                    className="progress-bar"
-                                    role="progressbar"
-                                    style={{ width: skill.porcentage }}
-                                    aria-valuenow={skill.value}
-                                    aria-valuemin="0"
-                                    aria-valuemax="100"
-                                  ></div>
-                                </div>
-                              </React.Fragment>
-                            );
-                          })}
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <div className="skill-mf">
-                          {this.state.skills1.map(skill => {
-                            return (
-                              <React.Fragment key={skill.id}>
-                                <span>{skill.content}</span>{" "}
-                                <span className="pull-right">
-                                  {skill.porcentage}
-                                </span>
-                                <div className="progress">
-                                  <div
-                                    className="progress-bar"
-                                    role="progressbar"
-                                    style={{ width: skill.porcentage }}
-                                    aria-valuenow={skill.value}
-                                    aria-valuemin="0"
-                                    aria-valuemax="100"
-                                  ></div>
-                                </div>
-                              </React.Fragment>
-                            );
-                          })}
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
 
                 <div className="row">
                   <div className="button-holder">
-                    <a className="btn-shutter-out-horizontal  stroke smoothscroll js-scroll" 
+                    <a className="btn-shutter-out-horizontal  stroke smoothscroll js-scroll"
                       href="#contact"
                       role="button"
                     >
                       Contact Me
                     </a>
-                    <a className="btn-shutter-out-horizontal " 
+                    <a className="btn-shutter-out-horizontal "
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://drive.google.com/file/d/1MX1YDlVvG6Y23eY5m5yvJ8RhpHsps2pv/view?usp=share_link"

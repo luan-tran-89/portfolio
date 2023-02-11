@@ -204,6 +204,7 @@ a:hover {
 }
 
 .socials .ico-circle {
+  color: black;
   height: 50px;
   width: 50px;
   font-size: 2.3rem;
@@ -470,8 +471,8 @@ NAVBAR
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
   background-color: #fff;
-  padding-top: 0;
-  padding-bottom: 0;
+  /* padding-top: 0;
+  padding-bottom: 0; */
 }
 
 .navbar-b.navbar-reduce .nav-link {
@@ -607,10 +608,12 @@ INTRO
 
 .intro .intro-content .social {
   background-color: white;
+  color: black;
 }
 
 .intro .intro-content .social:hover {
   background-color: #0078ff;
+  color: white;
 }
 
 .intro .overlay-intro {
@@ -721,7 +724,7 @@ PORTFOLIO
 .work-img {
   display: block;
   overflow: hidden;
-  min-height: 250px;
+  min-height: 280px;
 }
 
 .work-img img {
@@ -912,6 +915,7 @@ BUTTON
   border-radius: 5px;
 }
 
+button.btn-shutter-out-horizontal,
 .btn-shutter-out-horizontal {
   background-color: transparent;
   border: 1px solid #3e3e3e;

@@ -7,6 +7,8 @@ import About from './components/About';
 import Portfolio from './components/portfolio';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
+import SkillsAndExperience from './components/SkillsAndExperience';
+
 import BackToTop from './components/back-top';
 import Preloader from './components/preloader';
 import Timeline from './components/Timeline';
@@ -44,12 +46,13 @@ const App = (props) => {
       <Navbar />
       <Intro />
       <About />
+      <SkillsAndExperience />
       <Portfolio />
-      <Timeline
+      {/* <Timeline
         id="experience"
         setions={StaticData.getExperience()}
         sectionName="Experience"
-      />
+      /> */}
       <Timeline 
         id="education"
         setions={StaticData.getEducation()}

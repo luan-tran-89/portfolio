@@ -3,7 +3,6 @@ import $ from "jquery";
 
 import UserInfo from "../UserInfo";
 
-import "../../styles/navBar.scss";
 import logo1 from "../../img/logo.svg";
 import logo2 from "../../img/logo2.svg";
 
@@ -136,8 +135,13 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#experience">
-                  Work
+                <a className="nav-link js-scroll" href="#skills">
+                  Skills & Experience
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#projects">
+                  Projects
                 </a>
               </li>
               <li className="nav-item">

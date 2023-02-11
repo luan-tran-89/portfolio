@@ -224,7 +224,7 @@ function Contact(props) {
                       <ul className="list-ico">
                         <li><span className="ion-ios-location"></span> 1000 N 4th St, Fairfield, Iowa 52557</li>
                         <li><span className="ion-ios-telephone"></span>(206) 593-7990</li>
-                        <li><span className="ion-email"></span>ba.tran@miu.edu</li>
+                        <li><span className="ion-email"></span>luan.tran.2589@gmail.com</li>
                       </ul>
                     </div>
                     <Links />

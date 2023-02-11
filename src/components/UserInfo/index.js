@@ -23,6 +23,7 @@ const UserInfo = (props) => {
       if (info) {
         setUser(info);
       }
+    }).catch(e => {
     });
   }, []);
 
@@ -157,6 +158,11 @@ const UserInfo = (props) => {
   }
   
   function renderUserInfo() {
+    const hash = window.location.hash;
+    if (!hash || hash != "#user") {
+      return;
+    }
+
     if (_.isEmpty(user)) {
       return (
         <a className="nav-link" 
