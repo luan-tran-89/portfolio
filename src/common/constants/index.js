@@ -270,19 +270,23 @@ export const experiences = [
         duration: "May 2021 - July 2022",
         content: [
           {
-            text: "Check and respond to customer problems",
+            text: "Checked and responded to customer problems",
             link: "",
           },
           {
-            text: "Monitor systems and resolve related issues",
+            text: "Monitored systems and resolved related issues",
             link: "",
           },
           {
-            text: "Process and deploy applications to both staging and production environments",
+            text: "Processed and deployed applications to both staging and production environments",
             link: "",
           },
           {
-            text: "Process and release hotfix tickets",
+            text: "Resolved problems related to staging and production environments",
+            link: "",
+          },
+          {
+            text: "Processed and issued hotfix tickets and project releases",
             link: "",
           },
         ],
@@ -296,7 +300,19 @@ export const experiences = [
             link: "",
           },
           {
+            text: "Researched and implemented new technology in web application",
+            link: "",
+          },
+          {
+            text: "Created project structure, responsive websites supporting dynamic layouts, multiple themes",
+            link: "",
+          },
+          {
             text: "Created data object, data flow base on simple data, and 3rd-party documentation",
+            link: "",
+          },
+          {
+            text: "Produced new system diagrams, designs and documentation",
             link: "",
           },
           {
@@ -304,11 +320,11 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Performed unit tests and code reviews",
+            text: "Performed unit tests and code reviews and mentored team members",
             link: "",
           },
           {
-            text: "Attended Sprint meetings, contributed to discussions regarding task estimations and new features",
+            text: "Participated in discussions regarding task estimations and new features at Scrum meetings",
             link: "",
           }
         ],
@@ -333,11 +349,23 @@ export const experiences = [
             link: "",
           },
           {
+            text: "Maximized software performance by researching and identifying emerging technologies and libraries to implement in new solutions",
+            link: "",
+          },
+          {
+            text: "Developed large-scale complex applications",
+            link: "",
+          },
+          {
+            text: "Customized and improved API performance",
+            link: "",
+          },
+          {
             text: "Plan and complete the release on time",
             link: "",
           },
           {
-            text: "TMA Quarterly Start Performers - 1st Quarter 2018",
+            text: "TMA Quarterly Star Performers - 1st Quarter 2018",
             link: "https://www.facebook.com/tmasolutions/photos/a.1788952404494896/1788953014494835/?type=3",
           },
         ],
@@ -356,6 +384,10 @@ export const experiences = [
           },
           {
             text: "Enhanced backend performance by refactoring code and database",
+            link: "",
+          },
+          {
+            text: "Researched and implemented new technologies in web application",
             link: "",
           },
           {
