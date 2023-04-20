@@ -67,7 +67,7 @@ const StaticData = {
       {
         "title": "Ton Duc Thang University",
         "contain": "Ho Chi Minh City",
-        "years": "Sep 2009 - Sep 2013",
+        "years": "2009 - 2014",
         "logo": tdt,
         "link": "https://www.tdtu.edu.vn/en",
         "mainBadges": ["Bachelor's in Computer Science"],
@@ -102,7 +102,7 @@ const StaticData = {
     return [
       {
         id: "first-p-about",
-        content: "Knowledgeable full-stack Java developer with 8 years of extensive experience developing enterprise applications in professional, international environments."
+        content: "Knowledgeable Senior Java developer with 8 years of extensive experience developing enterprise applications in professional, international environments."
       },
       {
         id: "second-p-about",
