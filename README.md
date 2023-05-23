@@ -1,6 +1,6 @@
 # My Website in the AWS cloud
 
-### Course: Big Data Technology (CS516)
+### Course: Cloud Computing (CS516)
 ### Professor - Unubold Tumenbayar
 
 ### Overview
