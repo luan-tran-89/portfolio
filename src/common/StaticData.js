@@ -61,7 +61,8 @@ const StaticData = {
         "badges": [
           "Modern Programming Practices", "Web Programming", 
           "Big Data Technology", "Enterprise Architecture",
-          "Cloud Computing", "Big Data Analytics" 
+          "Cloud Computing", "Big Data Analytics",
+          "Algorithms"
         ]
       },
       {
@@ -102,7 +103,7 @@ const StaticData = {
     return [
       {
         id: "first-p-about",
-        content: "Knowledgeable Senior Java developer with 8 years of extensive experience developing enterprise applications in professional, international environments."
+        content: "Knowledgeable Senior Java developer with 8 years of extensive experience developing enterprise applications in professional, international environments using Java, Spring MVC, Spring Boot, Spring Cloud, Microservices, AWS, JUnit, Mockito, React, Redux, JavaScript and MySQL/PostgreSQL in high-performance, secure environments."
       },
       {
         id: "second-p-about",

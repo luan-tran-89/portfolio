@@ -266,65 +266,51 @@ export const experiences = [
     link: "https://www.code88.asia/v1/index.php",
     positions: [
       {
-        title: "DevOps",
-        duration: "May 2021 - July 2022",
+        title: "Senior Java Developer",
+        duration: "May 2018 - July 2022",
         content: [
           {
-            text: "Checked and responded to customer problems",
+            text: "Built RESTful API to consume user or UI requests and 3rd-party using Java 11, Spring Boot, Spring Security and wrote unit tests using JUnit, Mockito and code reviews while mentoring team members.",
             link: "",
           },
           {
-            text: "Monitored systems and resolved related issues",
+            text: "Built web applications from the scratch and applied responsive websites, dynamic layouts, and multiple themes using React, React Hooks, Redux, React Bootstrap, SASS, Gulp.",
             link: "",
           },
           {
-            text: "Processed and deployed applications to both staging and production environments",
+            text: "Implemented local caching in Redis for Java applications.",
             link: "",
           },
           {
-            text: "Resolved problems related to staging and production environments",
+            text: "Implemented file transfers by using SFTP in Java (JSch).",
             link: "",
           },
           {
-            text: "Processed and issued hotfix tickets and project releases",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Senior Java Web Developer",
-        duration: "May 2018 - May 2021",
-        content: [
-          {
-            text: "Build RESTful API and dynamic website to consume user request as well as validate and process data",
+            text: "Implemented messaging services for asynchronous communication between services using Kafka.",
             link: "",
           },
           {
-            text: "Researched and implemented new technology in web application",
+            text: "Migrated services to AWS using IAM, API Gateway, Lambda, S3, EC2, CloudFront, CloudWatch.",
             link: "",
           },
           {
-            text: "Created project structure, responsive websites supporting dynamic layouts, multiple themes",
+            text: "Developed common functions for team members by using coding convention and Design Patterns.",
             link: "",
           },
           {
-            text: "Created data object, data flow base on simple data, and 3rd-party documentation",
+            text: "Participated in discussions regarding task estimations and new features at daily Scrum meetings.",
             link: "",
           },
           {
-            text: "Produced new system diagrams, designs and documentation",
+            text: "Checked and solved problems related to staging and production environments using Elasticsearch.",
             link: "",
           },
           {
-            text: "Developed common functions for team members by using coding convention and Design Patterns",
+            text: "Produced new system diagrams, designs, and documentation to company's Wiki site.",
             link: "",
           },
           {
-            text: "Performed unit tests and code reviews and mentored team members",
-            link: "",
-          },
-          {
-            text: "Participated in discussions regarding task estimations and new features at Scrum meetings",
+            text: "Developed backend system administration capabilities allowing more efficient data management.",
             link: "",
           }
         ],
@@ -337,7 +323,7 @@ export const experiences = [
     link: "https://www.tmasolutions.com/about-us",
     positions: [
       {
-        title: "Senior Java Web Developer",
+        title: "Senior Java Developer",
         duration: "Aug 2017 - May 2018",
         content: [
           {
@@ -371,7 +357,7 @@ export const experiences = [
         ],
       },
       {
-        title: "Java Web Developer",
+        title: "Java Developer",
         duration: "Sep 2014 - Aug 2017",
         content: [
           {
