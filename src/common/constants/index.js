@@ -270,27 +270,19 @@ export const experiences = [
         duration: "May 2018 - July 2022",
         content: [
           {
-            text: "Built RESTful API to consume user or UI requests and 3rd-party using Java 11, Spring Boot, Spring Security and wrote unit tests using JUnit, Mockito and code reviews while mentoring team members.",
+            text: "Contributed to the development of software and features while providing multi-client support.",
             link: "",
           },
           {
-            text: "Built web applications from the scratch and applied responsive websites, dynamic layouts, and multiple themes using React, React Hooks, Redux, React Bootstrap, SASS, Gulp.",
+            text: "Attended Sprint meetings and contributed to discussions regarding task estimations and new features.",
             link: "",
           },
           {
-            text: "Implemented local caching in Redis for Java applications.",
+            text: "Built RESTful APIs to consume user or UI requests and 3rd-party using Java 11, Spring Boot, Spring Security.",
             link: "",
           },
           {
-            text: "Implemented file transfers by using SFTP in Java (JSch).",
-            link: "",
-          },
-          {
-            text: "Implemented messaging services for asynchronous communication between services using Kafka.",
-            link: "",
-          },
-          {
-            text: "Migrated services to AWS using IAM, API Gateway, Lambda, S3, EC2, CloudFront, CloudWatch.",
+            text: "Implemented unit tests and integration tests using JUnit, Mockito to ensure the functionalities.",
             link: "",
           },
           {
@@ -298,11 +290,15 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Participated in discussions regarding task estimations and new features at daily Scrum meetings.",
+            text: "Enhanced and troubleshoot existing APIs to improve efficiency and meet new business needs.",
             link: "",
           },
           {
-            text: "Checked and solved problems related to staging and production environments using Elasticsearch.",
+            text: "Performed code reviews for team members to ensure code quality.",
+            link: "",
+          },
+          {
+            text: "Participated on-call, analyzed, and fixed issues in staging and production environments.",
             link: "",
           },
           {
@@ -310,7 +306,31 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Developed backend system administration capabilities allowing more efficient data management.",
+            text: "Designed and developed backend system administration capabilities allowing more efficient data management.",
+            link: "",
+          },
+          {
+            text: "Designed and developed backend system administration capabilities allowing more efficient data management.",
+            link: "",
+          },
+          {
+            text: "Improved APIs performance by using local caching in Redis and refactoring codes.",
+            link: "",
+          },
+          {
+            text: "Implemented file transfers using SFTP in Java (JSch) to manage files via the Back Office site.",
+            link: "",
+          },
+          {
+            text: "Applied new technologies such as API Gateway, Discovery Server, Configuration Server, OAuth, Circuit Breaker, Swagger, and Kafka to build Back Office microservices.",
+            link: "",
+          },
+          {
+            text: "Migrated images and files from the server to AWS using IAM, S3, CloudWatch and created API Gateway, Lambda, CloudFront to load images and deployed some services to EC2.",
+            link: "",
+          },
+          {
+            text: "Built web applications from scratch to easily apply responsive websites, dynamic layouts, and multiple themes to provide client’s requirements using React, Redux, Bootstrap, SASS, and Gulp.",
             link: "",
           }
         ],
@@ -327,27 +347,35 @@ export const experiences = [
         duration: "Aug 2017 - May 2018",
         content: [
           {
-            text: "Conducted Front-end and Back-end programming using Reactjs and Java",
+            text: "Conducted Front-end and Back-end programming using Reactjs and Java.",
             link: "",
           },
           {
-            text: "Developed high-performance React application using React Context, and Redux",
+            text: "Developed high-performance React application using React Context, and Redux.",
             link: "",
           },
           {
-            text: "Maximized software performance by researching and identifying emerging technologies and libraries to implement in new solutions",
+            text: "Maximized software performance by researching and identifying emerging technologies and libraries to implement in new solutions.",
             link: "",
           },
           {
-            text: "Developed large-scale complex applications",
+            text: "Developed large-scale complex applications.",
             link: "",
           },
           {
-            text: "Customized and improved API performance",
+            text: "Customized and improved API performance.",
             link: "",
           },
           {
-            text: "Plan and complete the release on time",
+            text: "Plan and complete the release on time.",
+            link: "",
+          },
+          {
+            text: "Optimized SQL query to reduce the execution time of the report from one hour to some minutes and received good feedback from big customers like NASA, Goldman Sack, AT&T, and so on.",
+            link: "",
+          },
+          {
+            text: "Maximized software performance by researching and identifying emerging technologies and libraries to implement in new solutions using Java 8, Spring Framework, React, Redux.",
             link: "",
           },
           {

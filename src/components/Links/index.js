@@ -22,7 +22,7 @@ class Links extends React.Component {
             </a>
           </li>
           <li>
-            <a href="https://linkedin.com/in/luan-tran2589" target="_blank" rel="noopener noreferrer" >
+            <a href="https://linkedin.com/in/batran2389" target="_blank" rel="noopener noreferrer" >
               <span className="social ico-circle">
                 <i className="ion-social-linkedin"></i>
               </span>

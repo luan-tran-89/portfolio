@@ -3,6 +3,7 @@ import React from "react";
 import avata from "../../img/avata.jpg";
 
 import StaticData from '../../common/StaticData';
+import { info } from '../Contact';
 
 class About extends React.Component {
   constructor() {
@@ -125,7 +126,7 @@ class About extends React.Component {
                       </li>
                       <li>
                         <strong>Email:</strong>
-                        <span>luan.tran.2589@gmail.com</span>
+                        <span>{info.email}</span>
                       </li>
                     </ul>
                   </div>
@@ -142,7 +143,7 @@ class About extends React.Component {
                     <a className="btn-shutter-out-horizontal "
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://drive.google.com/file/d/1MX1YDlVvG6Y23eY5m5yvJ8RhpHsps2pv/view?usp=share_link"
+                      href="https://drive.google.com/file/d/1VVgRGIZFlI-769QKMe16k4uBzYXTtScx/view"
                     >
                       Download Resume
                     </a>

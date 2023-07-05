@@ -40,7 +40,7 @@ const SkillCard = (props) => {
 const Content = ({ text, link }) => {
   return (
     <div key={text}>
-      <p className="font-poppins font-normal text-[14px] text-dimblack mt-4">
+      <p className="font-poppins font-normal text-[14px] text-dimblack mt-2">
         - {text}{" "}
         {link ? (
           <a href={link} target="_blank">
