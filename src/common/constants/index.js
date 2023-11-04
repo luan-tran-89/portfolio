@@ -266,7 +266,7 @@ export const experiences = [
     link: "https://www.code88.asia/v1/index.php",
     positions: [
       {
-        title: "Senior Java Developer",
+        title: "Senior Software Developer",
         duration: "May 2018 - July 2022",
         content: [
           {
@@ -343,7 +343,7 @@ export const experiences = [
     link: "https://www.tmasolutions.com/about-us",
     positions: [
       {
-        title: "Senior Java Developer",
+        title: "Senior Software Developer",
         duration: "Aug 2017 - May 2018",
         content: [
           {
@@ -385,7 +385,7 @@ export const experiences = [
         ],
       },
       {
-        title: "Java Developer",
+        title: "Software Developer",
         duration: "Sep 2014 - Aug 2017",
         content: [
           {

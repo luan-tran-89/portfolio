@@ -62,7 +62,7 @@ const StaticData = {
           "Modern Programming Practices", "Web Programming", 
           "Big Data Technology", "Enterprise Architecture",
           "Cloud Computing", "Big Data Analytics",
-          "Algorithms"
+          "Algorithms", "Project Management"
         ]
       },
       {
@@ -103,7 +103,7 @@ const StaticData = {
     return [
       {
         id: "first-p-about",
-        content: "Knowledgeable Senior Java developer with 8 years of extensive experience developing enterprise applications in professional, international environments using Java, Spring MVC, Spring Boot, Spring Cloud, Microservices, AWS, JUnit, Mockito, React, Redux, JavaScript and MySQL/PostgreSQL in high-performance, secure environments."
+        content: "Knowledgeable Senior Software developer with 8 years of extensive experience developing enterprise applications in professional, international environments using Java 11, Spring MVC, Spring Boot, Spring Cloud, Microservices, JUnit, Mockito, AWS, React, Redux, JavaScript and MySQL/PostgreSQL in high-performance, secure environments."
       },
       {
         id: "second-p-about",
