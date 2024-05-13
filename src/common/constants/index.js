@@ -1,6 +1,7 @@
 import {
   tma,
-  code88
+  code88,
+  pgmtek
 } from "../assets";
 
 import {
@@ -261,6 +262,72 @@ export const skills = [
 
 export const experiences = [
   {
+    organisation: "PGM TEK Inc",
+    logo: pgmtek,
+    link: "https://pgmtek.com/",
+    positions: [
+      {
+        title: "Senior Java Developer",
+        duration: "Jan 2024 - now",
+        domain: "Online Computer Library Center",
+        content: [
+          {
+            text: "Contributed to the development of software and features for multiple data centers.",
+            link: "",
+          },
+          {
+            text: "Attended Sprint meetings and contributed to discussions regarding task estimations and new features.",
+            link: "",
+          },
+          {
+            text: "Built RESTful APIs to consume internal services or UI requests, and 3rd-party using Spring, Spring Security, JWT.",
+            link: "",
+          },
+          {
+            text: "Enhanced and troubleshoot existing APIs to improve efficiency and meet new business needs.",
+            link: "",
+          },
+          {
+            text: "Make sure the Hessian migration does not affect existing functions.",
+            link: "",
+          },
+          {
+            text: "Implemented unit tests and integration tests using JUnit, Mockito to ensure the functionalities.",
+            link: "",
+          },
+          {
+            text: "Performed code reviews for team members to ensure code quality.",
+            link: "",
+          },
+          {
+            text: "Produced system diagrams, designs, and documentation for the company's confluence site.",
+            link: "",
+          },
+          {
+            text: "Migrated Java 11 to Java 17 for some modules of Acquisition project.",
+            link: "",
+          },
+          {
+            text: "Implemented Spring Security, OAuth 2.0 and JWT.",
+            link: "",
+          },
+          {
+            text: "Replaced the Hessian service to Spring RPC services.",
+            link: "",
+          },
+          {
+            text: "Migrated internal services to call Spring RPC services using REST template, Webflux.",
+            link: "",
+          },
+          {
+            text: "Implemented the IRProxy client that is a midware between ACQ modules and IRProxy REST service.",
+            link: "",
+          }
+        ],
+      },
+    ],
+  },
+  {
     organisation: "CODE88 Company Limited",
     logo: code88,
     link: "https://www.code88.asia/v1/index.php",
@@ -268,6 +335,7 @@ export const experiences = [
       {
         title: "Senior Software Developer",
         duration: "May 2018 - July 2022",
+        domain: "Entertainment platform",
         content: [
           {
             text: "Contributed to the development of software and features while providing multi-client support.",
@@ -345,6 +413,7 @@ export const experiences = [
       {
         title: "Senior Software Developer",
         duration: "Aug 2017 - May 2018",
+        domain: "Networking Management",
         content: [
           {
             text: "Conducted Front-end and Back-end programming using Reactjs and Java.",

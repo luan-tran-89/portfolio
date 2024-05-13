@@ -91,6 +91,10 @@ const ExperienceCard = (props) => {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {position.duration}
             </time>
+            <br/>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              Business domain: {position.domain}
+            </time>
             {position.content.map((info, index) => (
               <Content key={index} index={index} {...info} />
             ))}
