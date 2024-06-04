@@ -29,7 +29,9 @@ import {
   SiIntellijidea,
   SiSubversion,
   SiJenkins,
-  SiAmazondynamodb
+  SiAmazondynamodb,
+  SiAngular,
+  SiTypescript
 } from "react-icons/si";
 
 import {
@@ -68,6 +70,11 @@ export const skills = [
         id: "pl-2",
         icon: SiJavascript,
         name: "JavaScript",
+      },
+      {
+        id: "pl-3",
+        icon: SiTypescript,
+        name: "Typescript",
       }
     ],
   },
@@ -91,31 +98,36 @@ export const skills = [
       },
       {
         id: "f-1",
+        icon: SiAngular,
+        name: "Angular",
+      },
+      {
+        id: "f-1-1",
         icon: SiReact,
         name: "ReactJS",
       },
       {
-        id: "f-2",
+        id: "f-1-2",
         icon: SiAntdesign,
         name: "Ant Design",
       },
       {
-        id: "f-2-1",
+        id: "f-2",
         icon: SiBootstrap,
         name: "Bootstrap",
       },
       {
-        id: "f-3",
+        id: "f-2-1",
         icon: SiTailwindcss,
         name: "Tailwind CSS",
       },
       {
-        id: "f-4",
+        id: "f-2-2",
         icon: SiJquery,
         name: "jQuery",
       },
       {
-        id: "f-5",
+        id: "f-3",
         icon: SiWebpack,
         name: "Webpack",
       },
@@ -262,13 +274,14 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "PGM TEK Inc",
+    organisation: "PGM TEK Inc - OCLC client",
     logo: pgmtek,
     link: "https://pgmtek.com/",
     positions: [
       {
         title: "Senior Java Developer",
         duration: "Jan 2024 - now",
+        client: "OCLC",
         domain: "Online Computer Library Center",
         content: [
           {
@@ -335,6 +348,7 @@ export const experiences = [
       {
         title: "Senior Software Developer",
         duration: "May 2018 - July 2022",
+        client: "Pinnacle",
         domain: "Entertainment platform",
         content: [
           {
@@ -398,7 +412,7 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Built web applications from scratch to easily apply responsive websites, dynamic layouts, and multiple themes to provide client’s requirements using React, Redux, Bootstrap, SASS, and Gulp.",
+            text: "Built web applications from scratch to easily apply responsive websites, dynamic layouts, and multiple themes to provide client’s requirements using Angular, React, Redux, Bootstrap, SASS, and Gulp.",
             link: "",
           }
         ],
@@ -413,10 +427,11 @@ export const experiences = [
       {
         title: "Senior Software Developer",
         duration: "Aug 2017 - May 2018",
+        client: "Nokia",
         domain: "Networking Management",
         content: [
           {
-            text: "Conducted Front-end and Back-end programming using Reactjs and Java.",
+            text: "Conducted Front-end and Back-end programming using Angular, Reactjs and Java.",
             link: "",
           },
           {
@@ -444,7 +459,7 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Maximized software performance by researching and identifying emerging technologies and libraries to implement in new solutions using Java 8, Spring Framework, React, Redux.",
+            text: "Maximized software performance by researching and identifying emerging technologies and libraries to implement in new solutions using Java 8, Spring Framework, Angular, React, Redux.",
             link: "",
           },
           {
@@ -456,6 +471,8 @@ export const experiences = [
       {
         title: "Software Developer",
         duration: "Sep 2014 - Aug 2017",
+        client: "GBST, Alcatel Lucent",
+        domain: "Networking Management",
         content: [
           {
             text: "Analyzed business requirements with team lead and determined technical solutions",

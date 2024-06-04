@@ -93,6 +93,8 @@ const ExperienceCard = (props) => {
             </time>
             <br/>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              Client: {position.client}
+              <br/>
               Business domain: {position.domain}
             </time>
             {position.content.map((info, index) => (
