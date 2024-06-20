@@ -103,7 +103,7 @@ const StaticData = {
     return [
       {
         id: "first-p-about",
-        content: "Knowledgeable Senior Software developer with 8 years of extensive experience developing enterprise applications in professional, international environments using Java 11, Spring MVC, Spring Boot, Spring Cloud, Microservices, JUnit, Mockito, AWS, Angular, React, Redux, JavaScript and MySQL/PostgreSQL in high-performance, secure environments."
+        content: "Knowledgeable Senior Software developer with 8 years of extensive experience developing enterprise applications in professional, international environments using Java 11, Spring MVC, Spring Boot, Spring Cloud, AWS, Microservices, JUnit, Mockito, JavaScript, Node.js, Angular, React, Redux, MySQL, PostgreSQL, and Redis, MongoDB, DynamoDB in high-performance, secure environments."
       },
       {
         id: "second-p-about",

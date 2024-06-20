@@ -1,7 +1,7 @@
 import {
   tma,
   code88,
-  pgmtek
+  cem
 } from "../assets";
 
 import {
@@ -30,8 +30,13 @@ import {
   SiSubversion,
   SiJenkins,
   SiAmazondynamodb,
+  SiMongodb,
   SiAngular,
-  SiTypescript
+  SiTypescript,
+  SiNodedotjs,
+  SiExpress,
+  SiRedis,
+  SiCloudflare
 } from "react-icons/si";
 
 import {
@@ -95,6 +100,16 @@ export const skills = [
         id: "f-0-2",
         icon: GrServices,
         name: "MicroServices",
+      },
+      {
+        id: "f-1-0",
+        icon: SiNodedotjs,
+        name: "Node.js",
+      },
+      {
+        id: "f-1-1",
+        icon: SiExpress,
+        name: "Express.js",
       },
       {
         id: "f-1",
@@ -171,6 +186,16 @@ export const skills = [
         id: "db-4",
         icon: DiDatabase,
         name: "Sysbase",
+      },
+      {
+        id: "db-5",
+        icon: SiAmazondynamodb,
+        name: "DynamoDB",
+      },
+      {
+        id: "db-5",
+        icon: SiMongodb,
+        name: "Mongodb",
       }
     ],
   },
@@ -197,13 +222,23 @@ export const skills = [
         id: "bd-4",
         icon: GiDatabase,
         name: "HBase",
-      },
-      {
-        id: "bd-5",
-        icon: SiAmazondynamodb,
-        name: "DynamoDB",
       }
     ],
+  },
+  {
+    title: "Caching",
+    items: [
+      {
+        id: "c-1",
+        icon: SiRedis,
+        name: "Redis",
+      },
+      {
+        id: "c-2",
+        icon: SiCloudflare,
+        name: "CDN",
+      }
+    ]
   },
   {
     title: "Tools",
@@ -274,12 +309,12 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "PGM TEK Inc - OCLC client",
-    logo: pgmtek,
-    link: "https://pgmtek.com/",
+    organisation: "CEM Technolofy - OCLC client",
+    logo: cem,
+    link: "https://cemtechinc.com/",
     positions: [
       {
-        title: "Senior Java Developer",
+        title: "Senior Software Developer",
         duration: "Jan 2024 - now",
         client: "OCLC",
         domain: "Online Computer Library Center",
@@ -330,6 +365,10 @@ export const experiences = [
           },
           {
             text: "Migrated internal services to call Spring RPC services using REST template, Webflux.",
+            link: "",
+          },
+          {
+            text: "Migrated the current server infrastructure from Node.js to a Java-based server",
             link: "",
           },
           {
