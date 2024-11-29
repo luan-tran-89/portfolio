@@ -43,7 +43,7 @@ const Content = ({ text, link }) => {
       <p className="font-poppins font-normal text-[14px] text-dimblack mt-2">
         - {text}{" "}
         {link ? (
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noreferrer">
             <BsLink45Deg
               size="1rem"
               className="inline hover:text-teal-200"
@@ -65,7 +65,7 @@ const ExperienceCard = (props) => {
       key={props.index}
     >
       <div className="flex flex-row items-center mb-6">
-        <a href={props.link} target="_blank">
+        <a href={props.link} target="_blank" rel="noreferrer">
           <img
             src={props.logo}
             alt={props.organisation}
@@ -93,8 +93,12 @@ const ExperienceCard = (props) => {
             </time>
             <br/>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Client: {position.client}
-              <br/>
+              {position.client && (
+                <>
+                  Client: {position.client}
+                  <br/>
+                </>
+              )}
               Business domain: {position.domain}
             </time>
             {position.content.map((info, index) => (

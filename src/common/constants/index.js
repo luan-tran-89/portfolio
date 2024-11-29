@@ -1,12 +1,13 @@
 import {
   tma,
   code88,
-  cem
+  oclc
 } from "../assets";
 
 import {
   SiJavascript,
   SiBootstrap,
+  SiMaterialui,
   SiReact,
   SiTailwindcss,
   SiJquery,
@@ -59,8 +60,6 @@ import {
 import {
   GiDatabase
 } from "react-icons/gi";
-
-import { DiCss3, DiMsqlServer, DiRuby } from "react-icons/di";
 
 export const skills = [
   {
@@ -130,6 +129,11 @@ export const skills = [
         id: "f-2",
         icon: SiBootstrap,
         name: "Bootstrap",
+      },
+      {
+        id: "f-2-0",
+        icon: SiMaterialui,
+        name: "Material UI",
       },
       {
         id: "f-2-1",
@@ -309,16 +313,19 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "CEM Technolofy - OCLC client",
-    logo: cem,
-    link: "https://cemtechinc.com/",
+    organisation: "",
+    logo: oclc,
+    link: "https://www.oclc.org/en/home.html",
     positions: [
       {
         title: "Senior Software Developer",
         duration: "Jan 2024 - now",
-        client: "OCLC",
         domain: "Online Computer Library Center",
         content: [
+          {
+            text: "Modernizing UI for EIDM projects by using Reactjs, Material UI",
+            link: "",
+          },
           {
             text: "Contributed to the development of software and features for multiple data centers.",
             link: "",

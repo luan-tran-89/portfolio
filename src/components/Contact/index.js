@@ -18,18 +18,14 @@ const defaultModal = {
   contain: ""
 }
 
-const mapURL1 = "https://maps.google.com/maps?width=100%25&height=600&hl=en&q=52557+(e)&t=&z=14&ie=UTF8&iwloc=B&output=embed";
-
-const mapURL2 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26769.860601171375!2d-96.86020099562987!3d32.99764328427307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c23c1dcf10917%3A0x6ada71f06dc85173!2sDallas%2C%20TX%2075287!5e0!3m2!1sen!2sus!4v1688331493990!5m2!1sen!2sus";
-
 export const info = {
-  mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214586.97537077343!2d-96.89636055208383!3d32.820845125633895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1688331710731!5m2!1sen!2sus",
-  address: "Dallas, Texas",
+  mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229539.85434576735!2d-83.1556361278438!3d39.98309783387204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883889c1b990de71%3A0xe43266f8cfb1b533!2sColumbus%2C%20OH!5e1!3m2!1sen!2sus!4v1732854994619!5m2!1sen!2sus",
+  address: "Columbus, Ohio",
   phone: "(945) 274-6472",
   email: "batran2389@gmail.com"
 }
 
-function Contact(props) {
+function Contact() {
   const [message, setMessage] = useState(defaultMessage);
   const [modal, setModal] = useState(defaultModal);
   const [errorMessage, setErrorMessage] = useState();
