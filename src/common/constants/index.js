@@ -1,7 +1,9 @@
 import {
   tma,
   code88,
-  oclc
+  oclc,
+  cem,
+  zustand
 } from "../assets";
 
 import {
@@ -37,7 +39,9 @@ import {
   SiNodedotjs,
   SiExpress,
   SiRedis,
-  SiCloudflare
+  SiCloudflare,
+  SiFigma,
+  SiRedux
 } from "react-icons/si";
 
 import {
@@ -119,6 +123,16 @@ export const skills = [
         id: "f-1-1",
         icon: SiReact,
         name: "ReactJS",
+      },
+      {
+        id: "f-1-1-1",
+        icon: SiRedux,
+        name: "Redux",
+      },
+      {
+        id: "f-1-1-2",
+        icon: zustand,
+        name: "Zustand",
       },
       {
         id: "f-1-2",
@@ -307,25 +321,92 @@ export const skills = [
         icon: DiNetbeans,
         name: "Netbeans",
       },
+      {
+        id: "t-12",
+        icon: SiFigma,
+        name: "Figma",
+      },
     ],
   },
 ];
 
 export const experiences = [
   {
-    organisation: "",
+    organisation: "OCLC Inc.",
     logo: oclc,
     link: "https://www.oclc.org/en/home.html",
     positions: [
       {
         title: "Senior Software Developer",
-        duration: "Jan 2024 - now",
+        duration: "July 2024 - now",
         domain: "Online Computer Library Center",
         content: [
           {
-            text: "Modernizing UI for EIDM projects by using Reactjs, Material UI",
+            text: "Design, develop, and maintain enterprise identity management solutions for authentication and authorization.",
             link: "",
           },
+          {
+            text: "Implement secure authentication mechanisms using Spring Security, OAuth 2.0, and JWT",
+            link: "",
+          },
+          {
+            text: "Develop scalable front-end applications using ReactJS, Redux, Zustand, and Material UI.",
+            link: "",
+          },
+          {
+            text: "Build and enhance user management and authorization management systems for enterprise application.",
+            link: "",
+          },
+          {
+            text: "Migrate legacy Thymeleaf to modern ReactJS applications for improved performance and user experience.",
+            link: "",
+          },
+          {
+            text: "Manage and optimize relational databases including MySQL, Postgres  for identity and access management data.",
+            link: "",
+          },
+          {
+            text: "Collaborate with cross-functional teams to integrate identity services with various applications.",
+            link: "",
+          },
+          {
+            text: "Ensure security best practices, compliance, and high availability of authentication systems.",
+            link: "",
+          },
+          {
+            text: "Modernized Authentication UI by migrating the Managed Authentication UI (MAUI) and Managed User Service UI (MUS) from Thymeleaf to ReactJS, improving UI performance and maintainability",
+            link: "",
+          },
+          {
+            text: "Developed an Authorization Management System that centralizes role-based access control (RBAC), managing user permissions and roles across all applications",
+            link: "",
+          },
+          {
+            text: "Optimized authentication workflows, reducing login failures and improving system resilience",
+            link: "",
+          },
+          {
+            text: "Enhanced security measures by implementing multi-factor authentication (MFA) and fine-grained access controls",
+            link: "",
+          },
+          {
+            text: "Improved system performance by optimizing API calls and database queries, reducing authorization response time",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "CEM Technology Inc.",
+    logo: cem,
+    link: "https://cemtechinc.com/",
+    positions: [
+      {
+        title: "Senior Software Developer",
+        duration: "Jan 2024 - Jun 2024",
+        domain: "Online Computer Library Center",
+        content: [
           {
             text: "Contributed to the development of software and features for multiple data centers.",
             link: "",

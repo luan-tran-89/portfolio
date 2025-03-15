@@ -7,7 +7,7 @@ const styles = {
     "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
   flexCenter: "flex justify-center items-center",
-  flexStart: "flex justify-center items-start",
+  flexStart: "flex justify-start items-start",
   flexEnd: "flex md:justify-end items-center",
 
   paddingX: "sm:px-16 px-6",
@@ -27,6 +27,8 @@ export const layout = {
   sectionImgReverseEnd: `flex-1 flex ${styles.flexEnd} md:mr-12 ml-4 mb-4 md:mb-0 md:mt-0 mt-10 relative`,
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+
+  skillIcon: `${styles.flexCenter}`,
 };
 
 export default styles;

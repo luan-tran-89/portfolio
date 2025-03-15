@@ -5,10 +5,14 @@ import { motion } from "framer-motion";
 import { BsLink45Deg } from "react-icons/bs";
 
 export const SkillIcon = ({ icon, name }) => {
+  const iconElm = typeof icon  === 'string' && icon.endsWith('svg')
+    ? React.createElement('img', { src: icon, alt: name, height: '30px', width: '30px' })
+    : React.createElement(icon);
+
   return (
     <div className="flex flex-col skill-group">
-      <span className="text-[30px] skill-icon">
-        {React.createElement(icon)}
+      <span className={`text-[30px] skill-icon ${layout.skillIcon}`}>
+        {iconElm}
       </span>
       <p className="font-poppins text-dimblack text-[12px] mt-2">{name}</p>
     </div>

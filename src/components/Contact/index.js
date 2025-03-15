@@ -245,7 +245,7 @@ function Contact() {
           <div className="row">
             <div className="col-sm-12">
               <div className="copyright-box">
-                © 2023 Ba Luan Tran All rights reserved.
+                {`© ${new Date().getFullYear()} Ba Luan Tran All rights reserved.`}
               </div>
             </div>
           </div>
