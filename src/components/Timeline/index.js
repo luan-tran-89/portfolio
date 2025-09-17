@@ -14,7 +14,7 @@ class Timeline extends Component {
     }
 
     return this.props.setions.map(function (section, i) {
-      const { badges, mainBadges, contain, title, type, years, logo, link } = section;
+      const { badges, mainBadges, contain, title, gpa, years, logo, link } = section;
 
       const mainTechs = mainBadges.map((technology, i) => {
         return (
@@ -84,7 +84,7 @@ class Timeline extends Component {
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
+              <span className="text-black title-a" style={{ textAlign: "center" }}>
                 {sectionName}
               </span>
             </h1>

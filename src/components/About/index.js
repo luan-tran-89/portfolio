@@ -118,7 +118,7 @@ class About extends React.Component {
                       </li>
                       <li>
                         <strong>Job title:</strong>
-                        <span>Senior Software Developer</span>
+                        <span>Senior Software Engineer</span>
                       </li>
                       <li>
                         <strong>Website:</strong>

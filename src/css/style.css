@@ -706,6 +706,17 @@ ABOUT
 }
 
 /*
+Certifications
+*/
+#certifications .certification-content {
+  justify-content: center;
+}
+
+#certifications .img {
+  width: 250px;
+}
+
+/*
 PORTFOLIO
 */
 

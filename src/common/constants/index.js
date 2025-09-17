@@ -337,7 +337,7 @@ export const experiences = [
     link: "https://www.oclc.org/en/home.html",
     positions: [
       {
-        title: "Senior Software Developer",
+        title: "Senior Software Engineer ",
         duration: "July 2024 - now",
         domain: "Online Computer Library Center",
         content: [
@@ -403,7 +403,7 @@ export const experiences = [
     link: "https://cemtechinc.com/",
     positions: [
       {
-        title: "Senior Software Developer",
+        title: "Senior Software Engineer",
         duration: "Jan 2024 - Jun 2024",
         domain: "Online Computer Library Center",
         content: [
@@ -473,7 +473,7 @@ export const experiences = [
     link: "https://www.code88.asia/v1/index.php",
     positions: [
       {
-        title: "Senior Software Developer",
+        title: "Senior Software Engineer",
         duration: "May 2018 - July 2022",
         client: "Pinnacle",
         domain: "Entertainment platform",
@@ -552,7 +552,7 @@ export const experiences = [
     link: "https://www.tmasolutions.com/about-us",
     positions: [
       {
-        title: "Senior Software Developer",
+        title: "Senior Software Engineer",
         duration: "Aug 2017 - May 2018",
         client: "Nokia",
         domain: "Networking Management",

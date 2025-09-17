@@ -16,6 +16,8 @@ import Utils from './common/Utils';
 import StaticData from './common/StaticData';
 
 import "./styles/common.scss";
+import Certification from "./components/Certification";
+import Award from "./components/Award";
 
 const App = (props) => {
 
@@ -58,6 +60,8 @@ const App = (props) => {
         setions={StaticData.getEducation()}
         sectionName="Education"
       />
+      <Award />
+      <Certification />
       <Blog />
       <Contact />
       <BackToTop />
