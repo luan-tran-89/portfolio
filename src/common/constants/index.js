@@ -2,37 +2,34 @@ import {
   tma,
   code88,
   oclc,
-  cem,
   zustand
 } from "../assets";
 
+import { FaDatabase, FaJava, FaAws } from "react-icons/fa";
+
 import {
+  SiContentstack,
   SiJavascript,
   SiBootstrap,
-  SiMaterialui,
+  SiMui,
   SiReact,
   SiTailwindcss,
   SiJquery,
-  SiVisualstudiocode,
   SiPostman,
   SiGit,
   SiNetlify,
-  SiJava,
   SiSpringboot,
   SiSpringsecurity,
   SiAntdesign,
   SiWebpack,
   SiFirebase,
-  SiAmazonaws,
   SiPostgresql,
-  SiOracle,
   SiApachehive,
   SiDocker,
   SiEclipseide,
   SiIntellijidea,
   SiSubversion,
   SiJenkins,
-  SiAmazondynamodb,
   SiMongodb,
   SiAngular,
   SiTypescript,
@@ -52,7 +49,8 @@ import {
 import {
   GrServices,
   GrMysql,
-  GrHadoop
+  GrHadoop,
+  GrOracle
 } from "react-icons/gr";
 
 import {
@@ -65,13 +63,15 @@ import {
   GiDatabase
 } from "react-icons/gi";
 
+import { VscCode } from "react-icons/vsc";
+
 export const skills = [
   {
     title: "Programming Languages",
     items: [
       {
         id: "pl-1",
-        icon: SiJava,
+        icon: FaJava,
         name: "Java",
       },
       {
@@ -146,7 +146,7 @@ export const skills = [
       },
       {
         id: "f-2-0",
-        icon: SiMaterialui,
+        icon: SiMui,
         name: "Material UI",
       },
       {
@@ -171,7 +171,7 @@ export const skills = [
     items: [
       {
         id: "c-1",
-        icon: SiAmazonaws,
+        icon: FaAws,
         name: "AWS",
       },
       {
@@ -193,11 +193,11 @@ export const skills = [
         id: "db-2",
         icon: SiPostgresql,
         name: "Postgresql",
-        
+
       },
       {
         id: "db-3",
-        icon: SiOracle,
+        icon: GrOracle,
         name: "Oracle",
       },
       {
@@ -207,7 +207,7 @@ export const skills = [
       },
       {
         id: "db-5",
-        icon: SiAmazondynamodb,
+        icon: FaDatabase,
         name: "DynamoDB",
       },
       {
@@ -229,7 +229,7 @@ export const skills = [
         id: "bd-2",
         icon: DiSpark,
         name: "Spark",
-        
+
       },
       {
         id: "bd-3",
@@ -303,7 +303,7 @@ export const skills = [
       },
       {
         id: "t-8",
-        icon: SiVisualstudiocode,
+        icon: VscCode,
         name: "VS Code",
       },
       {
@@ -328,17 +328,69 @@ export const skills = [
       },
     ],
   },
+  {
+    title: "CMS",
+    items: [
+      {
+        id: "t-1",
+        icon: SiContentstack,
+        name: "Contentstack",
+      }
+    ]
+  }
 ];
 
 export const experiences = [
+  {
+    organisation: "7-Eleven",
+    logo: 'https://www.7-eleven.com/assets/img/header/7e-logo-color.svg',
+    link: "https://www.7-eleven.com/",
+    positions: [
+      {
+        title: "Java developer",
+        duration: "Nov 2025 - now",
+        domain: "Convenience stores chain",
+        content: [
+          {
+            text: "Designed and developed Java-based BFF services to efficiently orchestrate communication between frontend applications and distributed backend systems.",
+            link: "",
+          },
+          {
+            text: "Improved system modularity and scalability by decoupling frontend and backend layers, enabling independent development and deployment.",
+            link: "",
+          },
+          {
+            text: "Streamlined frontend development by delivering aggregated and pre-processed data through purpose-built APIs.",
+            link: "",
+          },
+          {
+            text: "Strengthened data security and compliance by filtering, transforming, and controlling sensitive information before exposure to client applications.",
+            link: "",
+          },
+          {
+            text: "Implemented API versioning strategies, enabling seamless updates and backward compatibility across multiple frontend platforms.",
+            link: "",
+          },
+          {
+            text: "Integrated Contentstack CMS to manage and deliver dynamic content, supporting flexible and scalable content-driven experiences.",
+            link: "",
+          },
+          {
+            text: "Enabled personalization capabilities by tailoring content and API responses based on user behavior, preferences, and contextual data.",
+            link: "",
+          }
+        ],
+      },
+    ],
+  },
   {
     organisation: "OCLC Inc.",
     logo: oclc,
     link: "https://www.oclc.org/en/home.html",
     positions: [
       {
-        title: "Senior Software Engineer ",
-        duration: "July 2024 - now",
+        title: "Senior Software Engineer - Full time",
+        duration: "July 2024 - Oct 2025",
         domain: "Online Computer Library Center",
         content: [
           {
@@ -398,12 +450,9 @@ export const experiences = [
     ],
   },
   {
-    organisation: "CEM Technology Inc.",
-    logo: cem,
-    link: "https://cemtechinc.com/",
     positions: [
       {
-        title: "Senior Software Engineer",
+        title: "Senior Software Engineer - Contract",
         duration: "Jan 2024 - Jun 2024",
         domain: "Online Computer Library Center",
         content: [
@@ -625,5 +674,5 @@ export const experiences = [
       },
     ],
   },
-  
+
 ];

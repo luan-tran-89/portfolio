@@ -53,7 +53,7 @@ const StaticData = {
     return [
       {
         "title": "Maharish International University - GPA: 4.0/4.0",
-        "contain": "1000 N 4th St, Fairfield, IA 52557",
+        "contain": "Fairfield, IA 52557",
         "years": "2022 - 2024",
         "logo": maharishi,
         "link": "https://www.miu.edu/",
@@ -104,7 +104,7 @@ const StaticData = {
     return [
       {
         id: "first-p-about",
-        content: "Knowledgeable Senior Software Engineer more than 9 years of extensive experience developing enterprise applications in professional, international environments using Java 11/17, Spring MVC, Spring Boot, Spring Cloud, AWS, Microservices, JUnit, Mockito, JavaScript, Node.js, Angular, React, Redux, Material UI, MySQL, PostgreSQL, and Redis, MongoDB, DynamoDB in high-performance, secure environments."
+        content: "Knowledgeable Senior Software Engineer more than 9 years of extensive experience developing enterprise applications in professional, international environments using Java 11/17/21, Spring MVC, Spring Boot, Spring Cloud, AWS, Microservices, JUnit, Mockito, JavaScript, Node.js, Angular, React, Redux, Material UI, MySQL, PostgreSQL, and Redis, MongoDB, DynamoDB, Contentstack (Headless CMS), Content Delivery APIs, Personalize in high-performance, secure environments."
       },
       {
         id: "second-p-about",

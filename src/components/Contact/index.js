@@ -19,8 +19,8 @@ const defaultModal = {
 }
 
 export const info = {
-  mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229539.85434576735!2d-83.1556361278438!3d39.98309783387204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883889c1b990de71%3A0xe43266f8cfb1b533!2sColumbus%2C%20OH!5e1!3m2!1sen!2sus!4v1732854994619!5m2!1sen!2sus",
-  address: "Columbus, Ohio",
+  mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242065.10650142215!2d-96.93808970234376!3d32.785606048210056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e1!3m2!1sen!2sus!4v1777850627177!5m2!1sen!2sus",
+  address: "Dallas, Texas",
   phone: "(945) 274-6472",
   email: "batran2389@gmail.com"
 }

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { BsLink45Deg } from "react-icons/bs";
 
 export const SkillIcon = ({ icon, name }) => {
-  const iconElm = typeof icon  === 'string' && icon.endsWith('svg')
+  const iconElm = typeof icon === 'string' && icon.endsWith('svg')
     ? React.createElement('img', { src: icon, alt: name, height: '30px', width: '30px' })
     : React.createElement(icon);
 
@@ -68,25 +68,27 @@ const ExperienceCard = (props) => {
       transition={{ duration: 1 }}
       key={props.index}
     >
-      <div className="flex flex-row items-center mb-6">
-        <a href={props.link} target="_blank" rel="noreferrer">
-          <img
-            src={props.logo}
-            alt={props.organisation}
-            className="w-[52px] h-[52px] rounded-full z-[2]"
-          />
-        </a>
-        <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px] ml-2">
-          {props.organisation}
-        </h4>
-      </div>
+      {!props.logo ? null : (
+        <div className="flex flex-row items-center mb-6">
+          <a href={props.link} target="_blank" rel="noreferrer">
+            <img
+              src={props.logo}
+              alt={props.organisation}
+              className="w-[52px] h-[52px] z-[2]"
+            />
+          </a>
+          <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px] ml-2">
+            {props.organisation}
+          </h4>
+        </div>
+      )}
+
       <ol className="relative border-l line ml-6">
         {props.positions.map((position, index) => (
           <li
             key={index}
-            className={`${
-              index === props.positions.length - 1 ? "mb-0" : "mb-4"
-            } ml-4`}
+            className={`${index === props.positions.length - 1 ? "mb-0" : "mb-4"
+              } ml-4`}
           >
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-black">
@@ -95,12 +97,12 @@ const ExperienceCard = (props) => {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {position.duration}
             </time>
-            <br/>
+            <br />
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {position.client && (
                 <>
                   Client: {position.client}
-                  <br/>
+                  <br />
                 </>
               )}
               Business domain: {position.domain}
@@ -129,8 +131,8 @@ const SkillsAndExperience = () => {
           </h1> */}
           <div
             className={layout.section}
-            // whileInView={{ y: [-20, 0], opacity: [0, 1] }}
-            // transition={{ duration: 0.5 }}
+          // whileInView={{ y: [-20, 0], opacity: [0, 1] }}
+          // transition={{ duration: 0.5 }}
           >
             {/* Skills */}
             <motion.div className={`ml-2 mb-6 ${layout.sectionInfo}`}>
